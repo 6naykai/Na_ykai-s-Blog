@@ -38,7 +38,7 @@ menu:
 # github地址, 头部导航右上角的github链接
 Github: 
   on: true
-  url: https://github.com/yuang01/hexo-theme-bamboo
+  url: https://github.com/6naykai/Na_ykai-s-Blog
 
 # 网站logo
 logo: /medias/logo.png # 为空则不显示
@@ -140,7 +140,7 @@ sidebar:
           unit: '篇'
         runtime:
           on: true
-          data: '2020/01/01'    # 填写建站日期
+          data: '2022/09/14'    # 填写建站日期
           text: '已运行时间：'
           unit: '天'
         wordcount:
@@ -243,7 +243,7 @@ sharejs:
 # 鼠标点击特效
 cursor_effect:
   on: true
-  type: explosion  # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
+  type: love  # fireworks: 礼花 | explosion: 爆炸 | love: 浮出爱心 | text: 浮出文字
 
 # 头部导航是否显示天气
 weather:
@@ -775,7 +775,7 @@ lazyload:
 
 # prismjs代码高亮，在根目录下的_config.yml文件中将prismjs.enable设为true的时候, 在这里选择主题样式
 prismjs:
-  theme: 'default' # default, coy, dark, funky, okaidia, solarizedlight, tomorrow, twilight
+  theme: 'dark' # default, coy, dark, funky, okaidia, solarizedlight, tomorrow, twilight
 
 # highlight代码高亮，在根目录下的_config.yml文件中将highlight设为true的时候，在这里自定义颜色值
 # https://github.com/chriskempson/tomorrow-theme

@@ -103,3 +103,8 @@ theme: hexo-theme-bamboo
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# search
+search:
+  path: search.xml
+  field: post
