@@ -66,11 +66,11 @@ sidebar:
         - icon: fas fa-rss
           url: /atom.xml
         - icon: fas fa-envelope
-          url: 2845281712@qq.com
+          url: mailto:me@xxx.com
         - icon: fab fa-github
-          url: https://github.com/6naykai/Na_ykai-s-Blog
+          url: https://github.com/yuang01/hexo-theme-bamboo
         - icon: fab fa-qq
-          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2845281712 # 你的qq号码 
+          url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=你的qq号码
     # ---------------------------------------
     # category widget
     side_category:
@@ -190,10 +190,10 @@ swiper:
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: '青墨书晚风' # 标题
   defaultDesc: [] #描 述，例如 ['煮酒洗净尘嚣，论知交', '万般付之一笑，共偕老']
-  defaultLeftBtnText: '' # '阅读文档' # 左边按钮文字, 空字符串则不显示
-  defaultLeftBtnLink: '' # 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
-  defaultRightBtnText: '' # '下载主题' # 右边按钮的文字，空字符串则不显示
-  defaultRightBtnLink: '' # 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
+  defaultLeftBtnText: '阅读文档' # 左边按钮文字, 空字符串则不显示
+  defaultLeftBtnLink: 'https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/' # 左边按钮链接 
+  defaultRightBtnText: '下载主题' # 右边按钮的文字，空字符串则不显示
+  defaultRightBtnLink: 'https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip' # 右边的按钮的链接
   defaultDescTyped: true # defaultDesc文字是否开启打字特效  is typed
   defaultDescTypedSpeed: 100 # defaultDesc 打字速度, typed typeSpeed
   defaultDescTypedBackSpeed: 50 # defaultDesc 打字返回速度 typed backSpeed
@@ -273,8 +273,8 @@ ribbon:
 
 # live-2d(左下角动画人物)
 live2d:
-  on: true # 控制显示或者隐藏
-  modelId: 1 # 0 or 1 or 2 or 3 or 4 or 5 or 6
+  on: false # 控制显示或者隐藏
+  modelId:  # 0 or 1 or 2 or 3 or 4 or 5 or 6
   open: true # 默认展开，false则收缩，通过点左下角的方块点击，控制展开或者收缩
 
 # 首页雪花飘落效果--冬天
@@ -284,7 +284,7 @@ snow:
 
 # 首页花瓣飘落效果--春天
 sakura:
-  on: true
+  on: false
   onlyPc: false # 设为true，只有pc端显示花瓣特效
 
 # 首页文章图片是否一左一右交错显示
@@ -332,7 +332,7 @@ toc:
 
 # 音乐
 music:
-  on: false
+  on: true
   autoHide: true    # hide automaticaly
   server: tencent   # require music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    # require song, playlist, album, search, artist
@@ -414,7 +414,7 @@ books:
 
 #版权信息  coryRyght
 copyright:
-  on: false
+  on: true
 
 # 首页座右铭
 motto:
