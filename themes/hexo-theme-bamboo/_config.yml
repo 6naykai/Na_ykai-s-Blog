@@ -2,23 +2,23 @@
 
 # 菜单
 menu:
-  # Home:
-  #   url: /
-  #   icon: fas fa-home
-  # Archives:
-  #   url: /archives
-  #   icon: fas fa-archive
-  # Tags:
-  #   url: /tags
-  #   icon: fas fa-tags
-  # Categories:
-  #   url: /categories
-  #   icon: fas fa-bookmark
-  # About:
-  #   url: /about
-  #   icon: fas fa-user
-  # Friends:
-  #   url: /friends
+  Home:
+    url: /
+    icon: fas fa-home
+  Archives:
+    url: /archives
+    icon: fas fa-archive
+  Tags:
+    url: /tags
+    icon: fas fa-tags
+  Categories:
+    url: /categories
+    icon: fas fa-bookmark
+  About:
+    url: /about
+    icon: fas fa-user
+  Friends:
+    url: /friends
   # 更多: # 这是二级菜单的写法
   #  icon: fas fa-link
   #  children:
@@ -64,7 +64,7 @@ sidebar:
       order:  # 卡片排序, 数值越小，越在上面
       social:
         - icon: fas fa-rss
-          url: /atom.xml
+          url: # /atom.xml
         - icon: fas fa-envelope
           url: # 电子邮件
         - icon: fab fa-github
@@ -452,6 +452,7 @@ notice:
     # - title: '#新增 首页增加了座右铭和公告栏目 ~'
     #   date: '2021-04-28'
     #   url: 'http://baidu.com'
+    - title: '新人建站，请多指教。'
     
   
 
