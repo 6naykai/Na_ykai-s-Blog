@@ -228,7 +228,7 @@ show_count: true
 
 # 打赏功能
 donate:
-  on: true
+  on: false
 donate_message: 你的赏识是我前进的动力
 # 支付宝打赏图片相对路径
 Alipay: '/medias/1.jpg'
@@ -237,7 +237,7 @@ WeChatpay: '/medias/2.jpg'
 
 # 分享功能
 sharejs: 
-  on: true
+  on: false
   sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
 
 # 鼠标点击特效
@@ -261,7 +261,7 @@ postNav:
 copy:
   on: true
   title: '成功'
-  content: '代码已复制，请遵守相关授权协议。'
+  content: '代码已复制。'
 
 # 输入框打字特效
 inputEffects:
@@ -796,7 +796,7 @@ highlight:
 
 # wordcount字数统计, 需要 npm i hexo-wordcount 安装
 wordcount:
-  on: false
+  on: true
 
 # 自己嵌入css或者script
 import:
