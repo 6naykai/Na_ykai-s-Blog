@@ -1,7 +1,7 @@
 ---
 title: Hexo博客Bamboo主题增添文章最后更新时间
 date: 2022-09-16 15:23:28
-updated: 2022-09-16 15:23:28
+
 categories: 前端
 ---
 
