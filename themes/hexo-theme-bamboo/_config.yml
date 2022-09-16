@@ -527,7 +527,7 @@ gitalk:
 utterance:
   on: true
   # 仓库名字，格式：你的用户 ID/ 仓库名称，如：yuang01/yuang01.github.io
-  repo: 
+  repo: 6naykai/Na_ykai-s-Blog
   # 主题
   theme:
     light: github-light
