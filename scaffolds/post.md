@@ -1,6 +1,6 @@
 ---
 title: {{ title }}
 date: {{ date }}
-update: {{ date }}
+updated: {{ date }}
 categories: 
 ---

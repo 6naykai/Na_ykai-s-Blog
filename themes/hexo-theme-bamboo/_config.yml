@@ -776,7 +776,7 @@ lazyload:
 
 # prismjs代码高亮，在根目录下的_config.yml文件中将prismjs.enable设为true的时候, 在这里选择主题样式
 prismjs:
-  theme: 'dark' # default, coy, dark, funky, okaidia, solarizedlight, tomorrow, twilight
+  theme: 'default' # default, coy, dark, funky, okaidia, solarizedlight, tomorrow, twilight
 
 # highlight代码高亮，在根目录下的_config.yml文件中将highlight设为true的时候，在这里自定义颜色值
 # https://github.com/chriskempson/tomorrow-theme
