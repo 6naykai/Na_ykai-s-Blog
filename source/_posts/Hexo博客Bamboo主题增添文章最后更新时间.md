@@ -1,7 +1,7 @@
 ---
 title: Hexo博客Bamboo主题增添文章最后更新时间
 date: 2022-09-16 15:23:28
-
+updated: 2022-09-16 15:23:28
 categories: 前端
 ---
 
@@ -16,10 +16,10 @@ categories: 前端
 ```yaml
 title: {{ title }}
 date: {{ date }}
-update: {{ date }}
+updated: {{ date }}
 ```
 
-<p style="text-indent:2em">这个时候可以生成一篇新的博客看看效果。然而你会发现虽然生成的新博客md文件中有 <code>update</code> 属性，但在网页上却看不到显示，这是因为 Bamboo 主题并没有配置 <code>update</code> 项。于是进行 Bamboo 主题的修改。</p>
+<p style="text-indent:2em">这个时候可以生成一篇新的博客看看效果。然而你会发现虽然生成的新博客md文件中有 <code>updated</code> 属性，但在网页上却看不到显示，这是因为 Bamboo 主题并没有配置 <code>updated</code> 项。于是进行 Bamboo 主题的修改。</p>
 
 ## 修改Bamboo主题
 
@@ -43,7 +43,7 @@ update: {{ date }}
       <% } %>
 ```
 
-<p style="text-indent:2em">发现主题作者直接在这个ejs文件中引入了发布文件头部的时间，于是我们只需将 <code>update</code> 修改成上述代码类似模式添加在上述代码之下即可，修改后代码如下（注：下面展示结果包括了上述代码）</p>
+<p style="text-indent:2em">发现主题作者直接在这个ejs文件中引入了发布文件头部的时间，于是我们只需将 <code>updated</code> 修改成上述代码类似模式添加在上述代码之下即可，修改后代码如下（注：下面展示结果包括了上述代码）</p>
 
 ```ejs
 	  <% if (post.date) { %>
@@ -53,14 +53,14 @@ update: {{ date }}
       <% } %>
 
       <!-- 增添update时间 -->
-      <% if (post.update) { %>
+      <% if (post.updated) { %>
         <span class="post-detail-header_update">
-          <i class="fas fa-history"></i> <%= __('updated') %>：<%- date(post.update, "YYYY-MM-DD") %> |
+          <i class="fas fa-history"></i> <%= __('updated') %>：<%- date(post.updated, "YYYY-MM-DD") %> |
         </span>
       <% } %>
 ```
 
-<p style="text-indent:2em">如果你在此时重新使用“cgds大法”运行网站，会发现 <code>update</code> 属性已经可以显示出来了，但是它显示的是英文的 <code>updated</code> ，如果你想让它显示为你想让它显示为你想要的字，你有两种方式修改，一种是直接将上面代码中 <code>__('updated')</code> 单引号中的内容进行修改，但我更推荐第二种方式——增加字段。</p>
+<p style="text-indent:2em">如果你在此时重新使用“cgds大法”运行网站，会发现 <code>updated</code> 属性已经可以显示出来了，但是它显示的是英文的 <code>updated</code> ，如果你想让它显示为你想让它显示为你想要的字，你有两种方式修改，一种是直接将上面代码中 <code>__('updated')</code> 单引号中的内容进行修改，但我更推荐第二种方式——增加字段。</p>
 
 ### 增加字段
 
