@@ -414,7 +414,7 @@ books:
 
 #版权信息  coryRyght
 copyright:
-  on: false
+  on: true
 
 # 首页座右铭
 motto:
