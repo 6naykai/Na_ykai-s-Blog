@@ -52,9 +52,9 @@ updated: {{ date }}
         </span>
       <% } %>
 
-      <!-- 增添update时间 -->
+      <!-- 增添updated时间 -->
       <% if (post.updated) { %>
-        <span class="post-detail-header_update">
+        <span class="post-detail-header_updated">
           <i class="fas fa-history"></i> <%= __('updated') %>：<%- date(post.updated, "YYYY-MM-DD") %> |
         </span>
       <% } %>
