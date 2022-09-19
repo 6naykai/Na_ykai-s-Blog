@@ -8,19 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuang01/hexo-theme-bamboo.git"
+    "url": "git+https://github.com/6naykai/Na_ykai-s-Blog.git"
   },
   "keywords": [
     "hexo",
     "theme",
     "bamboo"
   ],
-  "author": "yuang01  (https://github.com/yuang01/)",
+  "author": "Na_ykai  (https://github.com/6naykai/)",
   "license": "",
   "bugs": {
-    "url": "https://github.com/yuang01/hexo-theme-bamboo/issues"
+    "url": "https://github.com/6naykai/Na_ykai-s-Blog"
   },
-  "homepage": "https://yuang01.github.io",
+  "homepage": "https://www.naykai.cn",
   "devDependencies": {
   }
-}
