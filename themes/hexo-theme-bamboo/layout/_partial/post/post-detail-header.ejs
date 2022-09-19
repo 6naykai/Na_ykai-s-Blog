@@ -38,14 +38,14 @@
     <% if (post.onlyTitle != true) { %>
       <% if (post.date) { %>
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> <%= __('publishedIn') %>：<%- date(post.date, "YYYY-MM-DD") %> |
+          <i class="fas fa-calendar"></i> <%= __('publishedIn') %>：<%- date(post.date, "YYYY-MM-DD HH:mm:ss") %> |
         </span>
       <% } %>
 
       <!-- 增添updated时间 -->
       <% if (post.updated) { %>
         <span class="post-detail-header_updated">
-          <i class="fas fa-history"></i> <%= __('updated') %>：<%- date(post.updated, "YYYY-MM-DD") %> |
+          <i class="fas fa-history"></i> <%= __('updated') %>：<%- date(post.updated, "YYYY-MM-DD HH:mm:ss") %> |
         </span>
       <% } %>      
 
