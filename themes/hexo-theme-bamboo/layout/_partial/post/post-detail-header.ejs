@@ -42,6 +42,13 @@
         </span>
       <% } %>
 
+      <!-- 增添updated时间 -->
+      <% if (post.updated) { %>
+        <span class="post-detail-header_updated">
+          <i class="fas fa-history"></i> <%= __('updated') %>：<%- date(post.updated, "YYYY-MM-DD") %> |
+        </span>
+      <% } %>      
+
       <% if (post.categories && post.categories.length > 0) { %>
         <span class="post-detail-header_categories">
           <i class="iconfont iconbookmark1"></i> <%= __('category') %>：
