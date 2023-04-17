@@ -53,7 +53,8 @@ sidebar:
   widget_library:
     side_blogger:
       on: true
-      avatar: https://api.btstu.cn/sjtx/api.php?lx=c1&format=images
+      # avatar: https://api.btstu.cn/sjtx/api.php?lx=c1&format=images
+      avatar: /img/旺仔小乔.jpg
       shape: rectangle # circle, rectangle
       url: /about/
       title: 青墨书晚风
